@@ -1,5 +1,6 @@
 function BankRekening(rekeninghouder, initieelSaldo) {
   let saldo = initieelSaldo;
+  
   this.opnemen = function (bedrag) {
     saldo -= bedrag;
     console.log(`Jouw nieuwe saldo is: ${saldo}`);
